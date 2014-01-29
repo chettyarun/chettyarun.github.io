@@ -15,6 +15,8 @@
         <meta name="google-site-verification" content="re_t7ja4IZq6BYH_gOXHam-1xYP0BMy5qiUygvzYW6U" />
         <link href='http://fonts.googleapis.com/css?family=Raleway:300,500' rel='stylesheet' type='text/css'>
     </head>
+
+    <!-- Main page  -->
     <body>
         <section id="landingpage" class="page">
             <div class="page wrap" id="ldetails">
@@ -58,9 +60,19 @@
                 </div>
             </div>
         </section>
+
+        <!-- End of main landing page -->
+
+
+        <!-- Portfolio page  -->
+
         <section id="portfolio" class="page">
             <div id="workwrap">
                 <div id="works" class="container">
+                    
+                    <!-- Masonry is acting on #works  -->
+                    <!-- .item is for every image and .featured is for big squares and horizontals (double width images)  -->
+
                     <div class="item featured">
                         <img src="portfolio/mehta.png">
                         <p>Identity - Shashank Mehta</p>
@@ -177,13 +189,31 @@
             </div>
         </section>
 
+        <!-- End of portfolio page  -->
 
 
+        <!-- Script inclusion  -->
 
-
-
+        
+        <!-- calling masonry  -->
         <script src="jquery.masonry.min.js"></script>
-        <script src="script.js"></script>
+        <script>
+                    $(document).ready(function() {
+
+            // Initialize Masonry
+            $('#works').masonry({
+                columnWidth: 250,
+                itemSelector: '.item',
+                isFitWidth: true,
+            }).imagesLoaded(function() {
+                $(this).masonry('reload');
+            });
+
+        });
+        </script>
+
+
+        <!-- Setting first window height  -->
         <script type="text/javascript">
             function progress(percent, $element) 
             {
@@ -199,6 +229,9 @@
        
             $(window).hashchange();
         </script>
+
+
+        <!-- Portfolio on click transition  -->
 
         <script type="text/javascript">
             $(function() {
@@ -216,5 +249,8 @@
             });
             });
         </script>
+
+        <!-- End of scripts  -->
+
     </body>
 </html>
