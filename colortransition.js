@@ -35,7 +35,7 @@ function endlessRainbow(rainbow, len) {
 	$.each(rainbow, function(e, v) {
 		$('#landingpage').animate({
 			backgroundColor: v
-		}, 120000, 'linear', function() {
+		}, 40000, 'linear', function() {
 			if ((e + 1) === len) {
 				endlessRainbow(rainbow, len);
 			}
