@@ -142,6 +142,18 @@ li{
 	width: 100%;
 	height: auto;
 }
+
+.item img{
+	-webkit-filter: grayscale(100%);
+}
+
+.item:hover img{
+	-webkit-filter: grayscale(0%);
+	-webkit-transition: all 0.3s ease-in-out;
+   
+
+}
+
 .item p{
 	position: absolute;
 	opacity: 0;
