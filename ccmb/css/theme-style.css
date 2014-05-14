@@ -272,15 +272,53 @@ div#about {
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		-o-box-sizing: border-box;
-		width: 32%;
+		width: 30%;
 		display:none;
 		float:left;
 		overflow:hidden;
 		margin: 0 2% 2% 0;
 	}	
-	#portfoliolist .portfolio:nth-child(3),#portfoliolist .portfolio:nth-child(6){
-		margin: 0 0% 2% 0;
+	#port{
+		width: 80%;
+		text-align:center;
+		margin-left: auto;
+		margin-right: auto;
 	}
+
+	.portfolio-wrapper img {
+		-webkit-filter: grayscale(100%);
+	}
+
+	.portfolio-wrapper:hover img {
+		-webkit-filter: grayscale(0%);
+		-webkit-transition: all 0.3s ease-in-out;
+	}
+
+	.portfolio-wrapper p{
+	
+		position: absolute;
+		opacity: 0;
+		width: 100%;
+		bottom: 0px;
+		text-align: center;
+		background-color: #ffffff;
+		color: #000000;
+		padding: 5px;
+		text-decoration: none;
+		font-weight: 300;
+		font-size: 1em;
+		-webkit-transition: opacity 500ms;
+	    -moz-transition: opacity 500ms;
+	    -o-transition: opacity 500ms;
+	    transition: opacity 500ms;
+	}	
+
+	.portfolio-wrapper:hover p{
+		opacity: 0.8;
+	}
+
+	}
+	
 	.portfolio-wrapper {
 		overflow:hidden;
 		position: relative !important;
