@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chetty Arun</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page Style -->
+    <link href="css/style-dribbble.css" rel="stylesheet" >
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <header id="main">
+        <a href="http://chettyarun.com" ><img class="logo" src="images/avatar.png"></img></a>
+      </header>
+    <section class="dribbble-feed">
+      <!--Dribbble feed-->
+    </section>
+  </div>
+
+    <!-- jQuery  -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- jRibbble -->
+    <script src="js/jquery.jribbble.js"></script>
+
+
+<script type="text/javascript">
+
+$('.dribbble-feed').hide();
+jQuery(window).load(function(){
+$('.dribbble-feed').fadeIn();
+});
+
+$(document).ready(function getDribbbleShots() {   
+  $.jribbble.getShotsByPlayerId('chettyarun', function (playerShots) {
+      var html = [];
+      $.each(playerShots.shots, function (i, shot) {
+          html.push('<div class="shot"><a href="' + shot.url + '" target="_blank">');
+          html.push('<img class="shot-image" src="' + shot.image_url + '" ');
+          html.push('alt="' + shot.title + '"></a></div>');
+      });
+      $('.dribbble-feed').html(html.join(''));
+  }, {page: 1, per_page: 9});
+});
+
+</script>
+  </body>
+
+</html>
