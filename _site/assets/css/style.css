@@ -1,0 +1,297 @@
+/*General*/
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+html{
+  border-top: black 8px solid;
+  background-color: #FAFAFA;
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 49px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+  margin-top: 0px;
+  margin-bottom: 8px;
+
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+p {
+  font-family: Nunito Sans;
+  font-size: 1.25rem;
+  font-weight: 200;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.64);
+  margin-bottom: 0px;
+}
+
+/*head text style*/
+.text-link a{
+  box-shadow: 0px -3px 0px #E5E5E5 inset;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.text-link a:hover{
+  box-shadow: 0px -6px 0px #E5E5E5 inset;
+}
+/*Navigation*/
+
+nav{
+  margin-top: 24px;
+  height: 28px;
+}
+
+nav a{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  text-decoration: none;
+}
+
+nav img{
+  width: 28px;
+}
+
+nav ul{
+  float: right;
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-left: 16px;
+}
+
+nav ul li img{
+  width: 24px;
+
+}
+
+
+/*container css*/
+
+.container{
+  width: 600px;
+  padding: 0px 20px 0px 20px;
+  margin: auto;
+}
+
+/*head-content style*/
+
+.head-content{
+  margin-top: 128px;
+}
+
+.head-content h1{
+  margin-bottom: 20px;
+}
+
+
+
+/*secondary nav style*/
+
+.nav{
+  margin-top: 48px;
+  margin-bottom: 36px;
+}
+
+.nav ul{
+  padding: 0px;
+}
+
+.nav li{
+  display: inline-block;
+  margin-right: 36px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  color: #8B939C; /*inactive color*/
+  cursor: pointer;
+}
+
+
+ul.tabs li.current{
+  color: #14151C; /*active color*/
+  border-bottom: 1px solid #E5E5E5;
+  box-shadow: 0px -8px 0px #E5E5E5 inset;
+}
+
+ul.tabs li:hover{
+  border-bottom: 1px solid #E5E5E5;
+  box-shadow: 0px -8px 0px #E5E5E5 inset;
+}
+
+/*tabs styling*/
+
+.tab-content{
+  /*display: none;*/
+  /*position:absolute;
+  opacity: 0;*/
+  display: none;
+  margin-top: 24px;
+  /*margin-bottom: 20px;*/
+  padding-top: 24px;
+  padding-bottom: 24px;
+  box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.08);
+}
+
+.tab-content.current{
+  /*display: inherit;*/
+  /*position: static;
+  opacity: 1;
+  transition: opacity 0.4s ease;*/
+  display: inherit;
+}
+
+.tab-content p{
+  margin-top: 8px;
+}
+
+.tab-content a{
+  box-shadow: 0px -3px 0px #E5E5E5 inset;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.tab-content a:hover{
+  box-shadow: 0px -6px 0px #E5E5E5 inset;
+}
+
+#tab-2 {
+  margin-top: 0px;
+}
+
+footer{
+  margin-top: 120px;
+  box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.08);
+}
+
+footer p{
+  font-size: 16px;
+  padding: 24px 0px 24px 0px;
+}
+
+/*media queries*/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.container{
+  width: 90%;
+  padding: 0px 24px 0px 24px;
+  margin: auto;
+}
+
+/*head-content style*/
+
+.head-content{
+  margin-top: 80px;
+}
+
+h1 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 49px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+p {
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 1.5;
+  color: #3635A;
+}
+
+.tab-content{
+  display: none;
+  margin-top: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.08);
+}
+
+.tab-content p{
+  margin-top: 8px; 
+}
+.tab-content a{
+  box-shadow: 0px -3px 0px #E5E5E5 inset;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+#tab-2 {
+  margin-top: 0px;
+}
+
+
+}

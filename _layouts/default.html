@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ page.title }}</title>
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,700,800,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,900&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" href="/assets/js/main.js"></script>
+
+</head>
+<body >
+	<div class="container">
+		{% include navigation.html %}
+		{% include head.html %}
+		{{ content }}
+	</div>
+	<footer>
+		{% include footer.html %}
+	</footer>
+</body>
+</html>
