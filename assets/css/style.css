@@ -233,7 +233,7 @@ h1 {
   font-family: Playfair Display;
   font-style: normal;
   font-weight: 900;
-  font-size: 32px;
+  font-size: 32pt;
   line-height: 49px;
   /* identical to box height */
   letter-spacing: 0.02em;
@@ -248,7 +248,7 @@ h3 {
   font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.25em;
+  font-size: 20pt;
   line-height: 150%;
   color: #000000;
 }
@@ -267,7 +267,7 @@ h6 {
 
 p {
   font-family: Nunito Sans;
-  font-size: 1.125em;
+  font-size: 18pt;
   font-weight: 200;
   line-height: 1.5;
   color: #3635A;
