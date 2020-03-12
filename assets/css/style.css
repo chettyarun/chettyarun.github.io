@@ -204,6 +204,20 @@ ul.tabs li:hover{
   margin-top: 0px;
 }
 
+#tab-3{
+  margin-top: 0px;
+}
+
+#update{
+  padding-top: 24px;
+  box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.08);
+}
+
+#update p{
+  margin-top: 0px;
+  font-size: 16px;
+}
+
 footer{
   margin-top: 120px;
   box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.08);
@@ -233,7 +247,7 @@ h1 {
   font-family: Playfair Display;
   font-style: normal;
   font-weight: 900;
-  font-size: 52pt;
+  font-size: 32px;
   line-height: 49px;
   /* identical to box height */
   letter-spacing: 0.02em;
@@ -248,7 +262,7 @@ h3 {
   font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
-  font-size: 36pt;
+  font-size: 20px;
   line-height: 150%;
   color: #000000;
 }
@@ -267,21 +281,21 @@ h6 {
 
 p {
   font-family: Nunito Sans;
-  font-size: 32pt;
+  font-size: 18px;
   font-weight: 200;
   line-height: 1.5;
   color: #3635A;
 }
 
 footer p{
-  font-size: 24pt;
+  font-size: 16px;
 }
 
 .tab-content{
   display: none;
-  margin-top: 48pt;
-  padding-top: 48pt;
-  padding-bottom: 48pt;
+  margin-top: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.08);
 }
 
@@ -297,5 +311,9 @@ footer p{
   margin-top: 0px;
 }
 
+#update{
+  margin-top: 0px; !important
+  font-size: 16px;
+}
 
 }
