@@ -1,0 +1,7 @@
+{{ $avatar_img := .Site.Params.author.avatar }}
+{{ $avatar_img_alt := .Site.Params.author.name }}
+{{ $image := resources.Get $avatar_img }}
+<div class="now">
+    <h3>Now</h3>
+    <p class="author-bio">{{ .Site.Params.now.description | markdownify }}</p>
+</div>

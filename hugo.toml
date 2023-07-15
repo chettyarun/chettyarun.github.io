@@ -1,0 +1,78 @@
+baseURL = 'http://chettyarun.com/'
+languageCode = 'en'
+title = 'Culture Head at Razorpay'
+theme = 'hugo-blog-awesome'
+
+# This defines how dates are formatted
+defaultContentLanguage = "en-gb"
+
+# Enable emojis globally
+enableEmoji = true
+ignoreErrors = ["additional-script-loading-error"] # ignore error of loading additional scripts.
+
+# set markup.highlight.noClasses=false to enable code highlight
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+	[markup.tableOfContents]
+		startLevel = 2 # ToC starts from H2
+		endLevel = 4 # ToC ends at H4
+		ordered = false # generates <ul> instead of <ol>
+
+[menu]
+    # The page reference (pageRef) is useful for menu highlighting
+    # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
+  [[menu.main]]
+    pageRef="posts"
+    name = 'Posts'
+    url = '/posts/'
+    weight = 10
+  [[menu.main]]
+    pageRef="bio"
+    name = 'Bio'
+    url = '/bio/'
+    weight = 20
+
+[params]
+  sitename = "Chetty Arun"
+  defaultColor = "ligh" # set color mode: dark, light, auto
+  # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
+  # the default value is set to 'auto'.
+  # You can take a look at layouts/index.html for more information.
+  description = "Culture head at Razorpay. A part of the core founding team. Used to head the design team before"
+  mainSections = ['posts']
+  toc = false # set to false to disable table of contents 'globally'
+  goToTop = true # set to false to disable 'go to top' button
+  additionalScripts = ['js/custom.js', 'js/custom-2.js']
+  # Will try to load 'assets/js/custom.js' and 'assets/js/custom-2.js'.
+  # Your custom scripts will be concatinated to one file `custom.js`.
+  # When building for production it will be minified.
+  # The file `custom.js` is loaded on each page (before body tag ends).
+
+  [params.author]
+  avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
+  # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
+  intro = "Hi, I'm Chetty Arun"
+  name = "Chetty Arun"
+  description = "I work at [Razorpay](https://razorpay.com) as the Culture Head. I know a little about a lot of things. I enjoy staying fit, lifting weights, and following a healthy lifestyle. I'm also an avid reader, particularly drawn to fantasy and science fiction."
+
+  [params.now]
+  description = "I am currently the Culture Head at [Razorpay](https://razorpay.com). I was heading the design team before. As the Culture Head, I am responsible for defining, promoting, and reviewing everything about our core culture values. A big part of my work is to ensure that our values are lived and celebrated in every corner of Razorpay. Checkout a quick [Twitter AMA](https://twitter.com/ChettyArun/status/1656950855848038402) I did explain my role as the Culture Head."
+
+
+
+  # Social icons
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/chettyarun"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://linkedin.com/in/chettyarun"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:me@chettyarun.com?Subject=I saw your website! Hello!"
