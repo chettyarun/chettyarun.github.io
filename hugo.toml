@@ -1,6 +1,6 @@
 baseURL = 'http://chettyarun.com/'
 languageCode = 'en'
-title = 'Culture Head at Razorpay'
+title = 'Chetty Arun'
 theme = 'hugo-blog-awesome'
 
 # This defines how dates are formatted

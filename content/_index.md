@@ -1,4 +1,4 @@
 ---
-title: "Chety Arun"
+title: "Home"
 author : "Chetty Arun"
 ---
