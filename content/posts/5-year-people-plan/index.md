@@ -1,6 +1,6 @@
 ---
-title: 5 Year People Plan
-date: 2023-06-25
+title: 5 year people plan
+date: 2023-05-10
 author: Chetty Arun
 description: A 5 year people plan that startups should draft
 ---
