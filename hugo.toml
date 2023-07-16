@@ -56,10 +56,10 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Hi, I'm Chetty Arun"
   name = "Chetty Arun"
-  description = "I work at [Razorpay](https://razorpay.com) as the Culture Head. I know a little about a lot of things. I enjoy staying fit, lifting weights, and following a healthy lifestyle. I'm also an avid reader, particularly drawn to fantasy and science fiction."
+  description = "I am a part of the core founding team at [Razorpay](https://razorpay.com) and I know a little about a lot of things. Besides my work, I'm into staying fit, lifting weights, and following a healthy lifestyle. I'm also an avid reader, especially of fantasy and science fiction."
 
   [params.now]
-  description = "I am currently the Culture Head at [Razorpay](https://razorpay.com). I was heading the design team before. As the Culture Head, I am responsible for defining, promoting, and reviewing everything about our core culture values. A big part of my work is to ensure that our values are lived and celebrated in every corner of Razorpay. Checkout a quick [Twitter AMA](https://twitter.com/ChettyArun/status/1656950855848038402) I did explain my role as the Culture Head."
+  description = "Currently, I'm the Culture Head at Razorpay. Previously, I headed the the design team. As the Culture Head, I am responsible for defining, promoting, and reviewing everything about our core culture values. A big part of my work is to ensure that our values are lived and celebrated in every corner of Razorpay. Check out a quick [Twitter AMA](https://twitter.com/ChettyArun/status/1656950855848038402) session where I discuss my role as the Culture Head."
 
 
 

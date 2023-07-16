@@ -8,7 +8,7 @@ I like public speaking and enjoy sharing my knowledge and insights with various 
 
 ### Short Bio
 
-Chetty Arun, one of the core founding memebers or [Razorpay](https://razorpay.com/). As the current Culture Head, he's actively contributing in shaping up the organisation's culture. Formerly heading the design function, he has scaled the team from 1 to 70+ designers.
+Chetty Arun, the Culture Head at [Razorpay](https://razorpay.com/), has played multiple roles since joining as a core founding member. Previously leading the design function, he successfully expanded the team from 1 to over 70 designers. Currently, his main focus is shaping the organization's culture and driving its growth.
 
 In addition to his contributions at Razorpay, he's an active partner at [MarsShot Ventures](https://marsshot.vc/) where he supports early-stage startups as an angel investor and advisor.
 

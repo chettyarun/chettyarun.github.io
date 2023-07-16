@@ -61,6 +61,11 @@
       font-size: $small-font-size;
     }
   }
+  
+  // Added a paragraph spacing for li items
+  li {
+    margin-bottom: 1rem;
+  }
 
   a {
     color: inherit;

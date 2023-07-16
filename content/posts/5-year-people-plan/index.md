@@ -6,13 +6,15 @@ description: A 5 year people plan that startups should draft
 ---
 
 
-Companies have a 5 year business plan or a 5 year product plan. We often see a long-term business/product strategy. Similarly, there should also be a 5 year people plan too. Or, a plan for when you're 10 times your current employee count. 
+Companies have a 5 year business plan or a 5 year product plan. We often see a long-term business/product strategy. But we rarely see a 5 year people plan. I strongly think there should be a 5 year people plan just like a 5 year product/business roadmap. Or, a plan for when you're 10 times your current employee count. 
 
 Let's say you're a 50 people startup right now. Think about a time when you'll be 500. Try answering these questions:
 
-* How's such a large team communicating with each other? How transparent is the team?
+* How's such a large team communicating with each other?
+* How transparent is the team? How can information still be transparent?
 * How will you make sure the 500 people team is a diverse set of folks?
-* How are you selling your org vision to 500 people? How do you make sure everyone understands that vision clearly?
+* As leaders, how are you selling your org vision to 500 people?
+* How do you make sure everyone understands that vision clearly?
 * How many managers would you have at that scale? What's the manager to report ratio?
 * How's hiring happening with so many new hiring managers? How's quality kept under control?
 * How many HR business partners would you have at that scale? How many people are mapped one HR partner?
