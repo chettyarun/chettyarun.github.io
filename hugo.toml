@@ -40,6 +40,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   defaultColor = "light" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
+  
   # You can take a look at layouts/index.html for more information.
   description = "Culture head at Razorpay. A part of the core founding team. Used to head the design team before"
   mainSections = ['posts']
@@ -76,3 +77,8 @@ url = "https://linkedin.com/in/chettyarun"
 [[params.socialIcons]]
 name = "email"
 url = "mailto:me@chettyarun.com?Subject=I saw your website! Hello!"
+
+# Adding a new post
+# use "hugo new posts/new-post.md" and that creates a new md file in /posts Or, just create a new folder inside /posts with the same title and create a new md file in that folder 
+# check the examplesite folder posts to check the md styles
+# remove draft: true propoerty in the md file and git push
