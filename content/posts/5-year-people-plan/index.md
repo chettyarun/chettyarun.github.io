@@ -32,3 +32,9 @@ Let's say you're a 50 people startup right now. Think about a time when you'll b
 * How are parties happening? How often and how exactly are 500 people meeting for celebrations?
 
 I can go on and on and on but you get the drift. Now coming to who should answer all these questions, it should be the founders, leaders, and HR heads. Just like a long-term product vision doc, have a long-term people vision doc ready. So that you're well prepared for expansion.
+
+<br>
+
+---
+
+**Disclaimer:** Hey! These are my unfiltered thoughts, kind of like a stream of consciousness. I'll be honest, I haven't done extensive research, so take all the information with a grain of salt. It's mostly based on my personal observations and perspectives. Hope you enjoyed the read! If you have feedback or a different perspective, I'd love to know. Catch me on [Twitter](https://twitter.com/ChettyArun) or mail me at [me@chettyarun.com](mailto:me@chettyarun.com?Subject=Feedback). Thanks!

@@ -40,3 +40,9 @@ While there are a lot of nuances, if I were to simplify this:
 3. If someone exceeds expectations in their current role and displays a lot of potential for the next role, it's time to promote them
 
 Promotions should set people up for success. Any approach that doesn't fit this bill, should be discarded.
+
+<br>
+
+---
+
+**Disclaimer:** Hey! These are my unfiltered thoughts, kind of like a stream of consciousness. I'll be honest, I haven't done extensive research, so take all the information with a grain of salt. It's mostly based on my personal observations and perspectives. Hope you enjoyed the read! If you have feedback or a different perspective, I'd love to know. Catch me on [Twitter](https://twitter.com/ChettyArun) or mail me at [me@chettyarun.com](mailto:me@chettyarun.com?Subject=Feedback). Thanks!
