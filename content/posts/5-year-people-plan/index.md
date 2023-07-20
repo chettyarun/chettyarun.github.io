@@ -37,4 +37,6 @@ I can go on and on and on but you get the drift. Now coming to who should answer
 
 ---
 
-**Disclaimer:** Hey! These are my unfiltered thoughts, kind of like a stream of consciousness. I'll be honest, I haven't done extensive research, so take all the information with a grain of salt. It's mostly based on my personal observations and perspectives. Hope you enjoyed the read! If you have feedback or a different perspective, I'd love to know. Catch me on [Twitter](https://twitter.com/ChettyArun) or mail me at [me@chettyarun.com](mailto:me@chettyarun.com?Subject=Feedback). Thanks!
+**Disclaimer:** Hey! These are my unfiltered thoughts, kind of like a stream of consciousness. I'll be honest, I haven't done extensive research, so take all the information with a grain of salt. It's mostly based on my personal observations and perspectives. 
+
+Hope you enjoyed the read! If you have feedback or a different perspective, I'd love to know. Catch me on [Twitter](https://twitter.com/ChettyArun) or mail me at [me@chettyarun.com](mailto:me@chettyarun.com?Subject=Feedback). Thanks!
