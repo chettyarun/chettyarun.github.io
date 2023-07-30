@@ -3,7 +3,6 @@ title: Asset and liability model
 date: 2023-07-30
 author: Chetty Arun
 description: Why should there be a hackathon for business teams too?
-draft: true
 ---
 
 I was having a conversation with one of the leaders who heads a team of over 80 sales folks. Over the last 5 years he's set up multiple sales teams and has grown as one of the exceptional leaders at [Razorpay](https://razorpay.com/) He told me about his model of coaching managers in the team which I found very interesting: **The Asset and Liability model**
