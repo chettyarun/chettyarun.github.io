@@ -45,3 +45,28 @@
     padding: 9rem 0;
     text-align: center;
 }
+
+
+.main-404 a {
+    color: inherit;
+    text-decoration-color: $smoke;
+    text-decoration: none;
+    background-color: #F2F2F2;
+    padding: 1px 3px;
+    border-radius: 2px 2px 2px 2px;
+    border-bottom: 2px solid #F2F2F2;
+    
+
+    &:hover {
+    color: inherit;
+    text-decoration: none;
+    background-color: #E8E8E8;
+    padding: 1px 3px;
+    border-radius: 2px 2px 2px 2px;
+    border-bottom: 2px solid #D4D4D4;
+    }
+
+    &:focus {
+      color: $text-link-blue;
+    }
+  }
