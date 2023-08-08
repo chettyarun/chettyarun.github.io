@@ -5,7 +5,7 @@ author: Chetty Arun
 description: Hiring your first designer 
 ---
 
-While there's no end to the list of qualities the first designer at an early stage startup should have, one big quality I keep telling founders to look for is to find designers who will believe in their vision from day 0. You don't want a designer who's joining you only for building up their portfolio. You'll find a lot of designers who are transactional. And, a lot of designers whose primary focus stops at, "I am here at an early stage startup to build a kickass portfolio for myself."
+Your first designer should have a lot of qualities. But most importantly, they must believe in your startup's vision right from day 0. You don't want a designer who's joining you only for building up their portfolio. You'll find a lot of designers who are transactional. And, a lot of designers whose primary focus stops at, "I am here at an early stage startup to build a kickass portfolio for myself."
 
 There's nothing wrong in that mentality. Designers (and everyone out there) should be selfish. But, that's not a mentality that'll work at early stage startups. That's not a mentality that'll fit well for founders who want to setup a great design function at their startups and see great design in their products.
 
