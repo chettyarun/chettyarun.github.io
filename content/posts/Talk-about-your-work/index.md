@@ -13,7 +13,7 @@ My executive coach once drew these shapes on a board and said I have to be that 
 The first triangle represents people who work on a lot of great things but often don't talk much about it (or talk very little about it). You'll find a lot of folks in your organisation like this. A lot of great designers, engineers, business folks, etc., who do absolutely amazing work. But, you rarely see them talk about their work. One possible reason is the hesitation of sharing their work. Talking about your work feels like you're "Boasting". If you're someone like this, start somewhere small. Talk about your work. Blog it, tweet about it, share interesting tidbits to your colleauges at work. Start somewhere. Let the world know how amazing you are and what amazing work you do.
 
 #### Do less. Talk more
-The second triangle represents people who talk a lot about their work but often aren't the ones who are great at it. You might've faced people (especially in interviews) who happen to have a great online presence. But, after a conversation or after working with them, you realise they're not that great after all. If you are someone like this, please don't be. 
+The second triangle represents people who talk a lot about their work but often aren't the ones who are great at it. You might've faced people (especially in interviews) who happen to have a great online presence. But, after a conversation or after working with them, you realise they're not that great after all. If you are someone like this, you have a lot of work to do on yourself. Work with a mentor/coach.
 
 #### The balance
 ![The square](the-square.svg)
