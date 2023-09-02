@@ -82,3 +82,14 @@ url = "mailto:me@chettyarun.com?Subject=I saw your website! Hello!"
 # use "hugo new posts/new-post.md" and that creates a new md file in /posts Or, just create a new folder inside /posts with the same title and create a new md file in that folder 
 # check the examplesite folder posts to check the md styles
 # remove draft: true propoerty in the md file and git push
+
+
+[outputs]
+home = ["HTML", "RSS"]
+
+[outputFormats.RSS]
+mediaType = "application/rss+xml"
+baseName = "index"
+isPlainText = true
+notAlternative = true
+permalinkable = false
