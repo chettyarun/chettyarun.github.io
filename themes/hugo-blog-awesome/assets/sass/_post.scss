@@ -64,7 +64,7 @@
   
   // Added a paragraph spacing for li items
   li {
-    margin-bottom: 1rem;
+    // margin-bottom: 1rem; Removed this as it was creating weird gaps for all li
   }
 
   a {
