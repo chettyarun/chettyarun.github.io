@@ -14,4 +14,4 @@ In addition to his contributions at Razorpay, he's an active partner at [MarsSho
 
 #####  Speaker Image
 
-![ChettyArun](https://i.imgur.com/WaRB2V6.jpg)
+![ChettyArun](../chettyarun.jpg)
