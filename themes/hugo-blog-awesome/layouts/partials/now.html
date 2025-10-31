@@ -3,5 +3,7 @@
 {{ $image := resources.Get $avatar_img }}
 <div class="now">
     <h3>Now</h3>
-    <p class="author-bio">{{ .Site.Params.now.description | markdownify }}</p>
+    <p class="author-bio">{{ .Site.Params.now.culture | markdownify }}</p>
+    <p class="author-bio">{{ .Site.Params.now.lnd | markdownify }}</p>
+    <p class="author-bio">{{ .Site.Params.now.coaching | markdownify }}</p>
 </div>
