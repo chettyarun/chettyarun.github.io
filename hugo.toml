@@ -90,6 +90,10 @@ url = "mailto:me@chettyarun.com?Subject=I saw your website! Hello!"
 # remove draft: true propoerty in the md file and git push
 
 
+[params]
+  enableComments = false
+
+
 [outputs]
 home = ["HTML", "RSS"]
 
