@@ -57,6 +57,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   # full - includes full blog post in the RSS feed. Generated using Hugo .Content .
   # By default (or if nothing is specified), summary is used.
 
+  enableComments = false
 
   [params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
@@ -89,9 +90,6 @@ url = "mailto:me@chettyarun.com?Subject=I saw your website! Hello!"
 # check the examplesite folder posts to check the md styles
 # remove draft: true propoerty in the md file and git push
 
-
-[params]
-  enableComments = false
 
 
 [outputs]
