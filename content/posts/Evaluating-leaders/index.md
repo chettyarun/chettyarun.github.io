@@ -22,7 +22,7 @@ Before going further and answering this, let us understand leaders first.
 #### How are leaders different?
 An org is successful if they do the right things the right way. Leaders are the ones who help decide what is the right thing and which is the right way. Leaders help set up a strong vision. Leaders help teams figure out the right approach to reach that vision. 
 
-> ##### Leaders help define, promote, and govern the right thing to do and the right way to do it
+> **Leaders help define, promote, and govern the right thing to do and the right way to do it**
 
 Simply put, leaders are the conduits of organisational growth. They act as catalysts for organisational evolution. They define the organisational culture. They serve as role models for their teams and the entire organisation. Teams look up to them for guidance, mentorship, and assurance when things go South. 
 
