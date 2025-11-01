@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Hugo build outputs
+/public/
+/resources/_gen/
+/hugo_stats.json
+.hugo_build.lock
+
+# Optional: tooling and editors
+node_modules/
+.vscode/
+.idea/
