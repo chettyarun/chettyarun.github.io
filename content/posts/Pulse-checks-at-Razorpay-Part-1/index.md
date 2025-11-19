@@ -40,9 +40,9 @@ The contextual question changed every month. If we did an R&R activity in the or
 Every month, close to 1000 employees (1/3rd of Razorpay) fill the survey. An overall mood score for Razorpay is calculated based on the first question. A team wise mood score (Engineering, Product, Design, Sales, etc., mood scores are calculated and compared to the overall org score). A leaderwise split is made and only the CXOs and business unit heads get access to the exact verbatim shared by employees in the 2nd question. Leaders are then tasked with acting on immediate critical and low-hanging concerns shared by employees. 
 
 This survey: 
-Gave leaders a quick health check on how their teams are feeling at work
-Gave the HR team and leaders a sense of how People Strategy projects are showing results from the 3rd (contextual) question
-Gave leaders action items and not just a quantitative score of eNPS
+1. Gave leaders a quick health check on how their teams are feeling at work
+2. Gave the HR team and leaders a sense of how People Strategy projects are showing results from the 3rd (contextual) question
+3. Gave leaders action items and not just a quantitative score of eNPS
 
 Leaders at Razorpay take up immediate actions based on what’s said in the survey. I’ve seen employees sharing their quick wins and how they’re feeling elated at work. I’ve seen CXOs taking up skip level meetings with employees multiple levels below them and helping them out because they’ve shared feedback in the pulse survey. Overall, it’s become a forum where employees share feedback without hesitation (in spite of it being a non-anonymous survey) and leaders taking swift action.
 
