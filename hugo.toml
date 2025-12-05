@@ -69,7 +69,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   [params.now]
   culture = "Currently, I’m the **Culture Head at Razorpay**, where I’m responsible for defining, promoting, and nurturing our core culture values across the company. Previously, I used to head the design team. A big part of my work is ensuring that our values are lived, celebrated, and embedded in every part of Razorpay’s journey."
   lnd = "I also head the **Learning & Development function**, where I take a very non-traditional approach to how people learn and grow. My focus is on leadership development and reimagining how learning happens across Razorpay. I currently lead our AI adoption efforts across the organization, helping teams discover how AI can make them faster, sharper, and more creative in their everyday work."
-  coaching = "I’m also on a journey to become an **executive coach**, working towards my professional certification. If you’re exploring personal growth or leadership challenges and would like to experience coaching, I’d be happy to help. Just drop me an [email](mailto:me@chettyarun.com?)."
+  coaching = "I’m also a **leadership coach**, working towards my professional certification. If you’re exploring personal growth or leadership challenges and would like to experience coaching, I’d be happy to help. Just drop me an [email](mailto:me@chettyarun.com?)."
 
 
   # Social icons
