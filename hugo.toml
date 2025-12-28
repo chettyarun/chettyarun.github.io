@@ -1,7 +1,6 @@
 baseURL = 'http://chettyarun.com/'
 languageCode = 'en'
 title = 'Chetty Arun'
-theme = 'hugo-blog-awesome'
 
 # This defines how dates are formatted
 defaultContentLanguage = "en-gb"
@@ -102,3 +101,7 @@ baseName = "index"
 isPlainText = true
 notAlternative = true
 permalinkable = false
+
+[module]
+  [[module.imports]]
+    path = "github.com/hugo-sid/hugo-blog-awesome"

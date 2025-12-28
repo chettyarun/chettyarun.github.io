@@ -1,0 +1,122 @@
+/* intro block - make everything left aligned */
+.author {
+  text-align: left !important;
+}
+
+/* Remove the centering margins Hugo applies on autho-bio text */
+.author-name,
+.author-bio {
+  max-width: none !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  text-align: left !important;
+}
+
+/* Reduce space after intro and now sections */
+.author {
+  margin-bottom: 3.2rem !important;
+}
+
+.now {
+  margin-bottom: 3.2rem !important;
+}
+
+/* Anchor links in home page and posts page */
+.page-content p a,
+.page-content li a,
+.author-bio a {
+    color: inherit;
+    text-decoration-color: $smoke;
+    text-decoration: none;
+    background-color: #F2F2F2;
+    padding: 1px 3px;
+    border-radius: 2px 2px 2px 2px;
+    border-bottom: 2px solid #F2F2F2;
+    
+  &:hover {
+    color: inherit;
+    text-decoration: none;
+    background-color: #E8E8E8;
+    padding: 1px 3px;
+    border-radius: 2px 2px 2px 2px;
+    border-bottom: 2px solid #D4D4D4;
+    }
+  }
+
+/* Dark mode overrides for pill links */
+html.dark .page-content p a,
+html.dark .page-content li a,
+html.dark .author-bio a {
+  color: #e5e7eb !important;          /* light text */
+  background-color: #2b313b !important;/* dark pill */
+  border-bottom-color: #2b313b !important;
+}
+
+html.dark .page-content p a:hover,
+html.dark .page-content li a:hover,
+html.dark .author-bio a:hover {
+  background-color: #353c48 !important;
+  border-bottom-color: #353c48 !important;
+}
+
+
+/* Removes blue hover on Recent notes links */
+.recentnotes > p > a:hover {
+  color: #0d122b !important;
+}
+
+
+/* Kill the external-link arrows */
+.page-content a[target="_blank"]::after {
+  content: none !important;   /* or "" */
+}
+
+/* Make post images sit on their own row with spacing */
+.page-content img {
+  display: block;
+  margin: 2rem auto 0 auto;  /* top / horizontal / bottom */
+}
+
+/* Load Google Sans / fallback */
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap');
+
+/* Apply to all paragraphs site-wide */
+p {
+  font-family: "Google Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Google Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* HOME ICON — LIGHT MODE */
+svg.feather-home {
+  color: #0d122b !important;
+  stroke: #0d122b !important;
+}
+
+a:hover svg.feather-home {
+  color: #0d122b !important;
+  stroke: #0d122b !important;
+}
+
+/* HOME ICON — DARK MODE */
+html.dark svg.feather-home {
+  color: rgba(234, 234, 234, 0.7) !important;
+  stroke: rgba(234, 234, 234, 0.7) !important;
+}
+
+html.dark a:hover svg.feather-home {
+  color: rgba(234, 234, 234, 1) !important;
+  stroke: rgba(234, 234, 234, 1) !important;
+}
