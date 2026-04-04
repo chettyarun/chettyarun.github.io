@@ -11,3 +11,7 @@
 node_modules/
 .vscode/
 .idea/
+
+# VM-local preview setup (not for deployment)
+hugo-preview.toml
+themes/hugo-blog-awesome/
