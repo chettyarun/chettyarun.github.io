@@ -9,6 +9,7 @@ draft: false
 .post-image-small { max-width: 280px; margin: 1.25rem auto; }
 @media (max-width: 768px) { .post-image-small { max-width: 100%; } }
 .post-image-small img { width: 100%; height: auto; display: block; border-radius: 12px; }
+.post-image-bordered img { border: 1px solid #d9d9d9; }
 </style>
 
 I have journaled for a long time.
@@ -31,9 +32,11 @@ The second problem was that I found it easier to describe events than emotions.
 
 I could write that I had a strange day, that I was not focused, or that something was bothering me. But actually naming what I was feeling, and why, took more effort. Most of the time, I stopped before getting there.
 
-<div class="post-image post-image-small">
+<div class="post-image post-image-small post-image-bordered">
   <img src="sazed-journal-entry-example.jpg" alt="Example journal entry showing the raw emotional context before Sazed begins asking follow-up questions">
 </div>
+
+<small><em>This is a screenshot from my Day One entry.</em></small>
 
 
 The third problem was insight.
