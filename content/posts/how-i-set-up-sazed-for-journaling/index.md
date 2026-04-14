@@ -1,5 +1,5 @@
 ---
-title: "How I Set Up Sazed to Turn Journaling Into a Guided Conversation"
+title: "How I set up Sazed to turn journaling into a guided conversation"
 date: 2026-04-14
 author: "Chetty Arun"
 description: "I used to journal as a daily dump in DayOne. With OpenClaw, Sazed, and Kuzu, journaling became a guided conversation that helps surface feelings and patterns."
