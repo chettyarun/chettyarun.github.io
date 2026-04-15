@@ -132,7 +132,7 @@ The next question was: "What is taking most of your time and energy right now?"
   <img src="sazed-conversation-example.jpg" alt="Example of Sazed turning a journal entry into a guided conversation with follow-up questions">
 </div>
 
-<small><em>Hoid never speaks directly. He sends it to Kaladin and Kaladin sends it back to me. That is why you see Kaladin's name in the chat.</em></small>
+<small><em>Sazed never speaks directly. He sends it to Kaladin and Kaladin sends it back to me. That is why you see Kaladin's name in the chat.</em></small>
 
 That is the difference in one sequence.
 
