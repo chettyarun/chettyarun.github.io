@@ -70,8 +70,6 @@ Because in this phase, the winners will not just be teams with access to AI tool
 
 ---
 
-**Disclaimer:** Hey! These are my unfiltered thoughts, kind of like a stream of consciousness. I'll be honest, I haven't done extensive research. So, take all the information with a grain of salt. It's mostly based on my personal observations and perspectives.
-
 Hope you enjoyed the read! If you have feedback or a different perspective, I'd love to know. Catch me on [Twitter](https://twitter.com/ChettyArun) or mail me at [me@chettyarun.com](mailto:me@chettyarun.com?Subject=Feedback) Thanks!
 
 *The thoughts are Chetty Arun's, but he used [Hoid](https://chettyarun.com/posts/introducing-hoid/) - his blog writing agent - to shape and publish this post.*
