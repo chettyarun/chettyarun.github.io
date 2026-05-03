@@ -40,10 +40,9 @@
 
     {{- if or .Params.math .Site.Params.math }}{{ partial "helpers/katex.html" . -}}{{- end -}}
 
-    {{/* GoatCounter analytics */}}
-    {{- if hugo.IsProduction }}
-    <script data-goatcounter="{{ site.Params.goatcounterUrl }}/count"
-      async src="{{ site.Params.goatcounterUrl }}/count.js"></script>
-    {{- end }}
+    {{/* Google Analytics */}}
+    {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+    {{ template "_internal/google_analytics.html" . }}
+    {{- end -}}
 
 </head>
