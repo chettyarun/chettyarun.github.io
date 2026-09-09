@@ -1,6 +1,9 @@
+{{ $avatar_img := .Site.Params.author.avatar }}
+{{ $avatar_img_alt := .Site.Params.author.name }}
+{{ $image := resources.Get $avatar_img }}
 <div class="now">
     <h3>Now</h3>
-    {{ with .Site.Params.now.line1 }}<p class="author-bio">{{ . | markdownify }}</p>{{ end }}
-    {{ with .Site.Params.now.line2 }}<p class="author-bio">{{ . | markdownify }}</p>{{ end }}
-    {{ with .Site.Params.now.line3 }}<p class="author-bio">{{ . | markdownify }}</p>{{ end }}
+    <p class="author-bio">{{ .Site.Params.now.culture | markdownify }}</p>
+    <p class="author-bio">{{ .Site.Params.now.lnd | markdownify }}</p>
+    <p class="author-bio">{{ .Site.Params.now.coaching | markdownify }}</p>
 </div>

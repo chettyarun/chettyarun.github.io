@@ -1,28 +1,13 @@
-/* Type system: Inter everywhere */
-body,
-h1, h2, h3, h4, h5, h6,
-p, li, a, button, input, textarea,
-.navbar, .menu, .menu-link,
-.author, .author-name, .author-bio,
-.now, .posts-item-note,
-.post-item, .post-item-title, .post-item-date,
-.page-content, .footer {
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
-               Helvetica, Arial, sans-serif !important;
-}
+/* Load Google Sans first (pre-PR intent; @import must be at top) */
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap');
 
-body {
-  font-size: 17px;
-  line-height: 1.6;
-}
-
-/* Intro / Now spacing — pull Recent Notes higher */
+/* intro block - make everything left aligned */
 .author {
   text-align: left !important;
-  margin-top: 2rem !important;
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 3.2rem !important;
 }
 
+/* Remove the centering margins Hugo applies on author-bio text */
 .author-name,
 .author-bio {
   max-width: none !important;
@@ -32,61 +17,16 @@ body {
   text-align: left !important;
 }
 
-.author .author-avatar {
-  width: 100px !important;
-  height: 100px !important;
-}
-
 .now {
-  margin-top: 0 !important;
-  margin-bottom: 1.75rem !important;
+  margin-bottom: 3.2rem !important;
 }
 
-.now h3 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-}
-
-.now .author-bio {
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
-  line-height: 1.55;
-}
-
-/* Post cards */
-.post-item .post-item-title {
-  font-size: 18px !important;
-  font-weight: 600 !important;
-  letter-spacing: -0.01em;
-}
-
-.post-item .post-item-date,
-.post-item .post-item-meta {
-  color: #767f87 !important;
-  opacity: 0.85;
-  font-size: 0.9rem;
-  min-width: 96px;
-}
-
-@media screen and (max-width: 768px) {
-  .post-item .post-item-title {
-    max-width: none !important;
-  }
-}
-
-/* Open heading scale slightly in post content */
-.page-content h1 { font-size: 1.85rem; line-height: 1.25; }
-.page-content h2 { font-size: 1.45rem; line-height: 1.3; }
-.page-content h3 { font-size: 1.2rem; line-height: 1.35; }
-.page-content h4 { font-size: 1.05rem; line-height: 1.4; }
-
-/* Signature gray pill links (light) */
+/* Anchor links — gray pills (same look as before; valid CSS) */
 .page-content p a,
 .page-content li a,
-.author-bio a,
-.now a {
-  color: inherit !important;
-  text-decoration: none !important;
+.author-bio a {
+  color: inherit;
+  text-decoration: none;
   background-color: #F2F2F2;
   padding: 1px 3px;
   border-radius: 2px;
@@ -95,30 +35,17 @@ body {
 
 .page-content p a:hover,
 .page-content li a:hover,
-.author-bio a:hover,
-.now a:hover {
-  color: inherit !important;
-  text-decoration: none !important;
+.author-bio a:hover {
+  color: inherit;
+  text-decoration: none;
   background-color: #E8E8E8;
-  border-bottom-color: #D4D4D4;
+  border-bottom: 2px solid #D4D4D4;
 }
 
-/* Kill theme blue hover on content / bio links */
-.page-content a:hover,
-.author-bio a:hover,
-.now a:hover {
-  color: inherit !important;
-}
-
-/* Dark mode pill / link colors */
+/* Dark mode overrides for pill links */
 html.dark .page-content p a,
 html.dark .page-content li a,
-html.dark .author-bio a,
-html.dark .now a,
-html:not(.light) .page-content p a,
-html:not(.light) .page-content li a,
-html:not(.light) .author-bio a,
-html:not(.light) .now a {
+html.dark .author-bio a {
   color: #e5e7eb !important;
   background-color: #2b313b !important;
   border-bottom-color: #2b313b !important;
@@ -126,36 +53,14 @@ html:not(.light) .now a {
 
 html.dark .page-content p a:hover,
 html.dark .page-content li a:hover,
-html.dark .author-bio a:hover,
-html.dark .now a:hover,
-html:not(.light) .page-content p a:hover,
-html:not(.light) .page-content li a:hover,
-html:not(.light) .author-bio a:hover,
-html:not(.light) .now a:hover {
-  color: #e5e7eb !important;
+html.dark .author-bio a:hover {
   background-color: #353c48 !important;
   border-bottom-color: #353c48 !important;
 }
 
-html.dark .page-content a,
-html:not(.light) .page-content a {
-  color: #e5e7eb !important;
-}
-
-html.dark .post-item .post-item-date,
-html.dark .post-item .post-item-meta,
-html:not(.light) .post-item .post-item-date,
-html:not(.light) .post-item .post-item-meta {
-  color: #9aa3ad !important;
-}
-
-/* Removes blue hover on Recent notes "See all" */
+/* Removes blue hover on Recent notes links */
 .recentnotes > p > a:hover {
   color: #0d122b !important;
-}
-
-html.dark .recentnotes > p > a:hover {
-  color: #eaeaea !important;
 }
 
 /* Kill the external-link arrows */
@@ -167,6 +72,24 @@ html.dark .recentnotes > p > a:hover {
 .page-content img {
   display: block;
   margin: 2rem auto 0 auto;
+}
+
+/* Apply Google Sans to paragraphs and headings (pre-PR) */
+p {
+  font-family: "Google Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Google Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 /* HOME ICON — LIGHT MODE */
