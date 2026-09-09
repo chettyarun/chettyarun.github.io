@@ -1,8 +1,12 @@
 ---
-title: Public Speaking
-description: 'Chetty Arun''s speaker bio'
+title: Bio
+description: "Chetty Arun's bio and speaker info"
 author: Chetty Arun
+aliases:
+  - /bio/
 ---
+
+### Public speaking
 
 I like public speaking and enjoy sharing my knowledge and insights with various audiences. If you're interested in hosting me as a speaker for your event, conference, podcast, or a panel discussion, please feel free to reach out to me at [me@chettyarun.com](mailto:me@chettyarun.com?Subject=Speaker%20Invitation)
 
@@ -12,6 +16,6 @@ Chetty Arun, the Culture Head at Razorpay, has played multiple roles since joini
 
 Beyond Razorpay, he is a leadership coach working towards his professional certification, and an active partner at MarsShot Ventures, where he supports early-stage startups as an angel investor and advisor.
 
-#####  Speaker Image
+##### Speaker Image
 
 ![ChettyArun](../chettyarun.jpg)

@@ -15,3 +15,7 @@ node_modules/
 # VM-local preview setup (not for deployment)
 hugo-preview.toml
 themes/hugo-blog-awesome/
+
+# Legacy Jekyll leftovers
+.jekyll-cache/
+themes/hugo-blog-awesome-backup/
