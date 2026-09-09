@@ -2,7 +2,7 @@
 title: When to promote someone
 date: 2023-05-29
 author: Chetty Arun
-description: Comptency frameworks and when to promote someone at work
+description: Competency frameworks and when to promote someone at work
 ---
 
 ##### You're doing pretty good at your current role. You exceed all expectations at your current role. We are promoting you!

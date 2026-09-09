@@ -2,6 +2,8 @@
 title: "Leaders need to figure out their AI stack"
 date: 2026-05-03T05:30:00Z
 draft: false
+author: Chetty Arun
+description: Every function head now has to redesign workflows around an AI stack — not bolt chatbots onto old processes.
 ---
 
 Leaders who think AI is just another tool they can plug into existing workflows are getting this wrong. This is not a software upgrade. It is a workflow redesign moment.

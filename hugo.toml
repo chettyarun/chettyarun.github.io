@@ -1,6 +1,6 @@
-baseURL = 'http://chettyarun.com/'
-googleAnalytics = 'G-LWJ4YHFFR9'
-languageCode = 'en'
+baseURL = 'https://chettyarun.com/'
+languageCode = 'en-gb'
+locale = 'en-GB'
 title = 'Chetty Arun'
 
 # This defines how dates are formatted
@@ -15,24 +15,29 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   [markup.highlight]
     noClasses = false
   [markup.goldmark.renderer]
+    # Kept true: many posts use raw HTML (<br>, etc.)
     unsafe = true
 	[markup.tableOfContents]
 		startLevel = 2 # ToC starts from H2
 		endLevel = 4 # ToC ends at H4
 		ordered = false # generates <ul> instead of <ol>
 
+[services]
+  [services.googleAnalytics]
+    id = 'G-LWJ4YHFFR9'
+
 [menu]
     # The page reference (pageRef) is useful for menu highlighting
     # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
   [[menu.main]]
-    pageRef="posts"
+    pageRef = "posts"
     name = 'Posts'
     url = '/posts/'
     weight = 10
   [[menu.main]]
-    pageRef="bio"
+    pageRef = "/pages/bio"
     name = 'Bio'
-    url = '/bio/'
+    url = '/pages/bio/'
     weight = 20
 
 [params]
@@ -40,14 +45,14 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   defaultColor = "light" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
-  
+
   # You can take a look at layouts/index.html for more information.
   description = "Culture head at Razorpay. A part of the core founding team. Used to head the design team before"
   mainSections = ['posts']
   toc = false # set to false to disable table of contents 'globally'
   goToTop = true # set to false to disable 'go to top' button
-  additionalScripts = ['js/custom.js', 'js/custom-2.js']
-  # Will try to load 'assets/js/custom.js' and 'assets/js/custom-2.js'.
+  additionalScripts = ['js/custom.js']
+  # Will try to load 'assets/js/custom.js'.
   # Your custom scripts will be concatinated to one file `custom.js`.
   # When building for production it will be minified.
   # The file `custom.js` is loaded on each page (before body tag ends).
@@ -67,9 +72,9 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   description = "I am a part of the core founding team at [Razorpay](https://razorpay.com) and I know a little about a lot of things. Over the years, I've worn many hats across design, product, and culture. Beyond work, I advise startups on design and culture, lift weights, and follow a healthy lifestyle. I'm also an avid reader, especially drawn to fantasy and science fiction."
 
   [params.now]
-  culture = "Currently, I’m the **Culture Head at Razorpay**, where I’m responsible for defining, promoting, and nurturing our core culture values across the company. Previously, I used to head the design team. A big part of my work is ensuring that our values are lived, celebrated, and embedded in every part of Razorpay’s journey."
-  lnd = "I also head the **Learning & Development function**, where I take a very non-traditional approach to how people learn and grow. My focus is on leadership development and reimagining how learning happens across Razorpay. I currently lead our AI adoption efforts across the organization, helping teams discover how AI can make them faster, sharper, and more creative in their everyday work."
-  coaching = "I’m also a **leadership coach**, working towards my professional certification. If you’re exploring personal growth or leadership challenges and would like to experience coaching, I’d be happy to help. Just drop me an [email](mailto:me@chettyarun.com?)."
+  line1 = "**Culture Head** at [Razorpay](https://razorpay.com) — previously headed design."
+  line2 = "Lead **Learning & Development** and org-wide AI adoption."
+  line3 = "Leadership coach (in certification). [Email me](mailto:me@chettyarun.com) to try a session."
 
 
   # Social icons
@@ -87,7 +92,7 @@ name = "email"
 url = "mailto:me@chettyarun.com?Subject=I saw your website! Hello!"
 
 # Adding a new post
-# use "hugo new posts/new-post.md" and that creates a new md file in /posts Or, just create a new folder inside /posts with the same title and create a new md file in that folder 
+# use "hugo new posts/new-post.md" and that creates a new md file in /posts Or, just create a new folder inside /posts with the same title and create a new md file in that folder
 # check the examplesite folder posts to check the md styles
 # remove draft: true propoerty in the md file and git push
 
