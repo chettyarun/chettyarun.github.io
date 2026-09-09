@@ -3,9 +3,9 @@
 {{ $image := resources.Get $avatar_img }}
 <div class="author">
     {{ with $image }}
-    {{ $resized := .Fill "100x100 webp" }}
-    <img class="author-avatar" src="{{ $resized.RelPermalink }}" alt="{{ $avatar_img_alt }}" width="100"
-        height="100" />
+    {{ $image := $image.Fill "100x100 webp" }}
+    <img class="author-avatar" src="{{ $image.RelPermalink }}" alt="{{ $avatar_img_alt }}" width="{{ .Width }}"
+        height="{{ .Height }}" />
     {{ end }}
     <h2 class="author-name">{{ .Site.Params.author.intro }}</h2>
     <p class="author-bio">{{ .Site.Params.author.description | markdownify }}</p>
